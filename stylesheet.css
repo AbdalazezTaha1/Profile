@@ -1,0 +1,74 @@
+body {
+  font-family: cursive !important;
+  background-image: url(imgs/2.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+::selection {
+  background: rgb(7, 97, 109);
+}
+
+.header-name {
+  box-shadow: -4px 4px 63px 15px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: -4px 4px 63px 15px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: -4px 4px 63px 15px rgba(0, 0, 0, 0.63);
+}
+.card-1 {
+  border: 2px solid rgb(150, 115, 138 /88%);
+  background: #a68390;
+  color: white;
+  transition: ease-out 0.5s;
+}
+.card-1:hover {
+  margin-top: -40px;
+}
+.btn-card-1 {
+  background-color: #6c5a7c;
+  border: 2px solid #6c5a7c;
+  color: white;
+  transition: 0.5s;
+}
+.btn-card-1:hover {
+  color: #bcbb17;
+  background: #6c5a7c;
+}
+.card-2 {
+  border: 2px solid gray;
+  background: #145e48;
+  color: white;
+  transition: ease-in-out 0.5s;
+}
+.card-2:hover {
+  margin-top: -40px;
+}
+h3 {
+  margin-top: -100;
+  text-shadow: -3px 0px 11px rgba(0, 234, 247, 0.91);
+}
+.card-3 {
+  background: #373740;
+  color: white;
+  border: 2px solid #404041;
+  transition: ease-in-out 0.5s;
+}
+.card-3:hover {
+  margin-top: -40px;
+}
+
+textarea {
+  background: #2c2b33 !important;
+  color: white !important;
+}
+input {
+  background: #2c2b33 !important;
+  color: white !important;
+}
+.btn-card-3 {
+  background: #4a4a4a !important;
+  transition: ease-in-out 0.5s;
+}
+.btn-card-3:hover {
+  color: #dcd64e !important;
+  font-size: 1.2rem;
+}
